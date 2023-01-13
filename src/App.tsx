@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { GithubLogo } from './components/GithubLogo'
+import { GitLogo } from './components/GitLogo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <h1>CSS DRAWINGS</h1>
       <section>
-        <GithubLogo />
+        <GitLogo />
       </section>
     </div>
   )
