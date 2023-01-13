@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <h1>CSS DRAWINGS</h1>
       <section>
+        <h2>Git logo</h2>
         <GitLogo />
       </section>
     </div>
