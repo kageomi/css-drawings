@@ -1,6 +1,8 @@
 import { FC } from 'react'
 import styled from 'styled-components'
 
+// reference: https://www.freecodecamp.org/news/learn-css-create-the-git-logo/
+
 const Stage = styled.div`
   width: 100%;
   aspect-ratio: 1 / 1;
