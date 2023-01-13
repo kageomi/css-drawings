@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { GitLogo } from './components/GitLogo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,6 +8,10 @@ function App() {
   return (
     <div className="App">
       <h1>CSS DRAWINGS</h1>
+      <section>
+        <h2>Git logo</h2>
+        <GitLogo />
+      </section>
     </div>
   )
 }
