@@ -23,7 +23,7 @@ const Line1 = styled.div`
   background-color: white;
   height: 8.3%;
   top: 26%;
-  // left: -0.1%; this line is not drewn completely at the edge of the Square
+  // left: -0.1%; this line is not drew completely at the edge of the Square
   position: absolute;
   &:before {
     content: '';
