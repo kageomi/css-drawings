@@ -16,6 +16,7 @@ const Stage = styled.div.attrs<Props>(props => ({
   align-items: center;
   border-radius: 10%;
   padding: 0.5em;
+  position: relative;
 `
 
 export { Stage }
