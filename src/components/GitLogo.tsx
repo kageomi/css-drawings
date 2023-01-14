@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const Stage = styled.div`
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1/1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@ const Stage = styled.div`
   border-radius: 10%;
 `
 const Square = styled.div`
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1/1;
   width: 73%;
   background-color: #f06033;
   border-radius: 7.3%;
@@ -29,7 +29,7 @@ const Line1 = styled.div`
   position: absolute;
   &:before {
     content: '';
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1/1;
     width: 27.2%;
     position: absolute;
     background-color: white;
@@ -38,7 +38,7 @@ const Line1 = styled.div`
     left: 27.2%;
   }
   &:after {
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1/1;
     width: 27.2%;
     content: '';
     position: absolute;
@@ -58,7 +58,7 @@ const Line2 = styled.div`
   transform: rotate(45deg);
   &:before {
     content: '';
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1/1;
     width: 37.2%;
     position: absolute;
     background-color: white;
