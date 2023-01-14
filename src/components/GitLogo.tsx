@@ -3,18 +3,9 @@ import styled from 'styled-components'
 
 // reference: https://www.freecodecamp.org/news/learn-css-create-the-git-logo/
 
-const Stage = styled.div`
-  width: 100%;
-  aspect-ratio: 1/1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: azure;
-  border-radius: 10%;
-`
 const Square = styled.div`
   aspect-ratio: 1/1;
-  width: 73%;
+  width: 73.7%;
   background-color: #f06033;
   border-radius: 7.3%;
   position: relative;
@@ -70,12 +61,10 @@ const Line2 = styled.div`
 
 const GitLogo: FC = () => {
   return (
-    <Stage id="git-logo">
-      <Square>
-        <Line1 />
-        <Line2 />
-      </Square>
-    </Stage>
+    <Square>
+      <Line1 />
+      <Line2 />
+    </Square>
   )
 }
 

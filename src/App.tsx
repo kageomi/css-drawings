@@ -18,7 +18,9 @@ function App() {
       </section>
       <section>
         <h2>Git logo</h2>
-        <GitLogo />
+        <Stage>
+          <GitLogo />
+        </Stage>
       </section>
     </div>
   )
